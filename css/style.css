@@ -30,7 +30,8 @@ a {
 body {
     background-image: url('../img/zombies-09.jpg');
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
 }
 
 img {
