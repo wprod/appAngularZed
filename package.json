@@ -1,0 +1,32 @@
+{
+  "name": "api-experiment",
+  "version": "0.0.0",
+  "description": "app api json",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "~2.17.5",
+    "es6-promise": "~4.0.5",
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-notify": "~2.2.0",
+    "gulp-sass": "~2.3.2",
+    "gulp-size": "~2.1.0",
+    "gulp-sourcemaps": "~2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncss": "~1.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wprod/thewalkingapp.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/wprod/app-mobile-first/issues"
+  },
+  "homepage": "https://github.com/wprod/app-mobile-first#readme",
+  "devDependencies": {}
+}

@@ -1,0 +1,44 @@
+<ol class="breadcrumb">
+    <li><a href="#/">Seasons</a></li>
+    <li>{{title}}</li>
+</ol>
+
+
+<div ng-hide="loading">
+
+
+    <ng-tabs>
+        <ng-tab title="Article">
+            <h1>{{title}}</h1>
+            <p><img src='{{picture}}' alt="{{title}}" /></p>
+            <p>{{fullcontent}}</p>
+        </ng-tab>
+
+        <ng-tab title="{{comments.length}} Commentaires">
+            <h3>{{comments.length}} Commentaires</h3>
+            <div>
+                <ng-comment  ng-repeat="comment in comments" comment="comment"></ng-comment>
+            </div>
+        </ng-tab>
+    </ng-tabs>
+
+
+    <h3>Ajouter un commentaire</h3>
+
+    <form ng-submit="addComment()">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Pseudo" ng-model="newComment.username" />
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Ville" ng-model="newComment.city" />
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="email" ng-model="newComment.email" />
+        </div>
+        <div class="form-group">
+            <textarea ng-model="newComment.content" class="form-control"></textarea>
+        </div>
+
+        <input type="submit" class="btn btn-default" value="Envoyer">
+    </form>
+</div>

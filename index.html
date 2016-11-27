@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TheWalkingApp</title>
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="plugin/themes/classic.css" />
+    <link rel="stylesheet" href="plugin/themes/classic.date.css" />
+</head>
+
+<body ng-app="MonApp">
+
+    <div class="jumbotron walikngdead">
+       
+        <!-- Loading dans controller post -->
+        <a herf="qmlksdmqskdmsqkd"> <h1>The Walking <b>Dead</b> (TV series)</h1></a>
+        <p><i><b>The Walking Dead</b></i> is an American <a href="/wiki/Horror_fiction" title="Horror fiction">horror</a> <a href="/wiki/Drama" title="Drama">drama</a> television series developed by <a href="/wiki/Frank_Darabont" title="Frank Darabont">Frank Darabont</a>, based on the <a href="/wiki/The_Walking_Dead_(comic_book)" title="The Walking Dead (comic book)">comic book series of the same name</a> by <a href="/wiki/Robert_Kirkman" title="Robert Kirkman">Robert Kirkman</a>, <a href="/wiki/Tony_Moore_(artist)" title="Tony Moore (artist)">Tony Moore</a>, and <a href="/wiki/Charlie_Adlard" title="Charlie Adlard">Charlie Adlard</a>. <a href="/wiki/Andrew_Lincoln" title="Andrew Lincoln">Andrew Lincoln</a> plays the show's lead character, sheriff's deputy <a href="/wiki/Rick_Grimes" title="Rick Grimes">Rick Grimes</a>,<sup id="cite_ref-Sheriff.27sDeputy_3-0" class="reference"><a href="#cite_note-Sheriff.27sDeputy-3">[3]</a></sup> who awakens from a coma discovering a world overrun by <a href="/wiki/Zombie" title="Zombie">zombies</a>, commonly referred to as "walkers".<sup id="cite_ref-amc_4-0" class="reference"><a href="#cite_note-amc-4">[4]</a></sup> Grimes reunites with his family and becomes the leader of a group he forms with other survivors. Together they struggle to survive and adapt in a post-apocalyptic world filled with walkers and opposing groups of survivors, who are often more dangerous than the walkers themselves.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></p>
+        
+        <div ng-show="loading">
+            <div style="margin:auto;" class="loader"></div>
+        </div>
+    </div>
+
+    <div class="container" ng-view></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/service/post.js"></script>
+    <script src="js/controller/comments.js"></script>
+    <script src="js/controller/post.js"></script>
+    <script src="js/directive/directive.js"></script>
+
+    <script src="plugin/compressed/picker.js"></script>
+    <script src="plugin/compressed/picker.date.js"></script>
+
+</body>
+
+</html>
