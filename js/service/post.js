@@ -1,6 +1,8 @@
 app.factory('PostFactory', function($http, $q, $timeout) {
 	var factory = {
+        
 		posts : false,
+        
 		find : function() {
 			var deferred = $q.defer();
 
@@ -21,9 +23,10 @@ app.factory('PostFactory', function($http, $q, $timeout) {
 						deferred.reject('Impossible de recuperer les saisons')
 					});
 			}
-
 			return deferred.promise;
+            
 		},
+        
 		get : function(id) {
 			var deferred = $q.defer();
 			var post = {};
@@ -43,10 +46,11 @@ app.factory('PostFactory', function($http, $q, $timeout) {
 			//return factory.posts[id]; 
             
 		},
+        
 		add : function(comment){
 			var deferred = $q.defer();
 
-			//...... 
+			//...... le code si on voulait envoyer a un serveur
 
 			deferred.resolve();
 			return deferred.promise;
