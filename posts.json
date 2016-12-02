@@ -1,10 +1,9 @@
-[
-    {
+[{
         "id": 0,
         "picture": "img/1.jpg",
         "name": "Season 1",
         "content": "Rick, while on his sheriff's patrol duty with his partner Shane Walsh, is injured and falls into a coma. He awakens some time after the apocalypse...",
-        
+
         "fullcontent": "Rick, while on his sheriff's patrol duty with his partner Shane Walsh, is injured and falls into a coma. He awakens some time after the apocalypse and meets survivor Morgan Jones, who explains the dangers of walkers. Rick travels to Atlanta, Georgia, in search of his family only to find that city has been overrun by walkers. Rescued by Glenn Rhee, Rick is eventually introduced to the rest of Glenn's group, who are camping a few miles outside of the city. There, he discovers that his wife Lori and son Carl have been living with Shane. The two policemen employ different approaches to keep the peace: Rick returns to Atlanta for supplies and to retrieve a man left behind, while Shane exerts his authority over the camp.",
         "tags": [
             "ex",
@@ -15,8 +14,27 @@
             "non",
             "tempor"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.73, -74.20
+            ],
+            [
+                40.74, -74.20
+            ],
+            [
+                40.75, -74.20
+            ],
+            [
+                40.76, -74.20
+            ],
+            [
+                40.77, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Margret Pennington",
                 "city": "Trexlertown",
                 "email": "margretpennington@austech.com",
@@ -41,7 +59,6 @@
         "picture": "img/2.jpg",
         "name": "Season 2",
         "content": "While scavenging supplies along a highway, Carol Peletier's daughter, Sophia, is separated, and Carl is accidentally shot, forcing the survivors to...",
-        
         "fullcontent": "While scavenging supplies along a highway, Carol Peletier's daughter, Sophia, is separated, and Carl is accidentally shot, forcing the survivors to stay on the nearby farm of veterinarian Hershel Greene. Hershel saves Carl's life, and in the group's attempt to co-exist with Hershel's family, secrets and disagreements lead to rising tensions. In addition, Rick learns of Lori's former affair with Shane and her newfound pregnancy, creating a rift between Rick and Shane.",
         "tags": [
             "ut",
@@ -52,8 +69,15 @@
             "minim",
             "deserunt"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.72, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Stewart Jarvis",
                 "city": "Valle",
                 "email": "stewartjarvis@overfork.com",
@@ -78,7 +102,7 @@
         "picture": "img/3.jpg",
         "name": "Season 3",
         "content": "After spending several months fleeing remnants of the herd, the survivors make a new home in a prison infested with walkers but find greater danger from the...",
-        
+
         "fullcontent": "After spending several months fleeing remnants of the herd, the survivors make a new home in a prison infested with walkers but find greater danger from the treachery of two rescued convicts. In the process of clearing the prison, Maggie Greene is forced to perform a fatal Caesarean section on Lori to save her baby, and Rick becomes withdrawn and hallucinates visions of Lori and others who died. Meanwhile, Andrea and Michonne – who rescued Andrea near Hershel's farm – are discovered by Merle Dixon and taken to the town of Woodbury, which is led by a man known as The Governor. Michonne is distrustful and escapes to the prison, where she meets Rick's group and guides them on a rescue mission following Glenn and Maggie's capture. There are casualties on both sides, and The Governor, disfigured by Michonne, declares the prison group terrorists and Merle a traitor.",
         "tags": [
             "in",
@@ -89,8 +113,15 @@
             "labore",
             "Lorem"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.72, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Sophia Irwin",
                 "city": "Soham",
                 "email": "sophiairwin@splinx.com",
@@ -114,8 +145,8 @@
         "id": 3,
         "picture": "img/4.jpg",
         "name": "Season 4",
-        "content": "Several months have passed, and the prison community has grown when a deadly flu-like infection spreads among the population, killing residents, who...", 
-        
+        "content": "Several months have passed, and the prison community has grown when a deadly flu-like infection spreads among the population, killing residents, who...",
+
         "fullcontent": "Several months have passed, and the prison community has grown when a deadly flu-like infection spreads among the population, killing residents, who reanimate as walkers. Carol is banished for murdering two sick residents. Baited walkers breach the prison fence and are barely contained when a scavenging detail returns with medicine. Elsewhere, The Governor encounters the Chambler family, and together they all join another group of survivors led by The Governor's former right-hand man from Woodbury, Martinez. The Governor murders Martinez and takes charge of the group, honing them into a fighting force he turns on the plague-weakened prison. Rick offers to share the prison, but The Governor ignites hostilities by executing Hershel. The Governor is ultimately killed, but the prison is overrun by walkers, and Rick's group is scattered.",
         "tags": [
             "pariatur",
@@ -126,8 +157,15 @@
             "fugiat",
             "enim"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.72, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Terra Trevino",
                 "city": "Northchase",
                 "email": "terratrevino@comcur.com",
@@ -146,8 +184,7 @@
         "picture": "img/5.jpg",
         "name": "Season 5",
         "content": "Rick's group learn the residents of Terminus engage in cannibalism, luring in victims under the guise of offering sanctuary. Carol uses firearms and walkers ...",
-        
-        "fullcontent": "Rick's group learn the residents of Terminus engage in cannibalism, luring in victims under the guise of offering sanctuary. Carol uses firearms and walkers to.", 
+
         "fullcontent": "Rick's group learn the residents of Terminus engage in cannibalism, luring in victims under the guise of offering sanctuary. Carol uses firearms and walkers to attack Terminus, enabling the others to escape. Reunited, they soon encounter Gareth and a small band of Terminus survivors who attempt to terrorize and prey upon Rick's group, but are outmatched and killed. Abraham Ford and Rosita Espinosa continue their mission to get Eugene to Washington, D.C., joined by Glenn, Maggie, and Tara. After facing a number of setbacks, Eugene admits that he fabricated the story about a cure in order to receive protection. Meanwhile, Daryl and Carol follow a marked car to Atlanta, where Beth has been held in a nearby hospital ruled by morally-compromised police officers. Carol is taken, and Daryl recruits the rest of his group to help. They capture several police officers to make a trade, but a brief standoff ends in Beth's death.",
         "tags": [
             "anim",
@@ -158,8 +195,15 @@
             "irure",
             "ullamco"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.72, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Rosalyn Mccullough",
                 "city": "Gallina",
                 "email": "rosalynmccullough@xinware.com",
@@ -184,6 +228,7 @@
         "picture": "img/6.jpg",
         "name": "Season 6",
         "content": "velit quis exercitation cupidatat fugiat amet officia labore esse duis dolore enim culpa mollit enim et in magna cupidatat labore quis reprehenderit.",
+
         "fullcontent": "velit quis exercitation cupidatat fugiat amet officia labore esse duis dolore enim culpa mollit enim et in magna cupidatat labore quis reprehenderit et irure ipsum excepteur minim ad pariatur qui labore id sint dolore nostrud non laboris incididunt magna consectetur consequat officia consequat veniam velit dolore eu dolor magna dolore",
         "tags": [
             "sit",
@@ -194,8 +239,15 @@
             "magna",
             "id"
         ],
-        "comments": [
-            {
+        "positions": [
+            [
+                40.71, -74.21
+            ],
+            [
+                40.72, -74.20
+            ]
+        ],
+        "comments": [{
                 "username": "Hartman Delgado",
                 "city": "Munjor",
                 "email": "hartmandelgado@hawkster.com",

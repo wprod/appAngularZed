@@ -1,12 +1,14 @@
 <div ng-hide="loading">
-	<div class="row">
-		
-		<div class="col-md-4 linecomment" ng-repeat="post in posts">
-		  <h2>{{post.name}}</h2>
-		  <p><img src='{{post.picture}}' alt="{{post.name}}" /></p>
-		  <p>{{post.content}}</p>
-		  <p><a class="btn btn-primary" href="#/comments/{{post.id}}" role="button">{{post.comments.length}} Commentaires &raquo;</a></p>
-		</div>
-		
-	</div>
+    <div class="row">
+
+        <div class="col-md-4 linecomment" ng-repeat="post in posts">
+            <h2>{{post.name}}</h2>
+            <p><img ng-src='{{post.picture}}' alt="{{post.name}}" /></p>
+            <p><a href="#/comments/{{post.id}}" role="button">{{post.comments.length}} Commentaires </a></p>
+
+            <p>{{post.content}}</p>
+            <p><a class="btn btn-primary" href="#/comments/{{post.id}}" role="button">En savoir plus</a></p>
+        </div>
+
+    </div>
 </div>

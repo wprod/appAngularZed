@@ -15,5 +15,7 @@
     "tests"
   ],
   "dependencies": {
+    "angular-animate": "^1.5.9",
+    "ngmap": "^1.17.8"
   }
 }
